@@ -1,0 +1,17 @@
+.card {
+	max-width: 370px;
+	background-color: var(--project-card-bg);
+	box-shadow: var(--box-shadow);
+	border-radius: 10px;
+}
+
+.card-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card__img {
+	border-radius: 10px;
+}
