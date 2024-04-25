@@ -30,8 +30,8 @@ export const projects = [
 		img: go,
 		imgBig: goBig,
 		skills: 'HTML, CSS',
-		gitHubLink: 'https://github.com/Dima163163/crm',
-		gitHubPages: 'https://dima163163.github.io/crm/cms.html',
+		gitHubLink: 'https://github.com/Dima163163/go',
+		gitHubPages: 'https://dima163163.github.io/go/',
 		vercel: ''
 	},
 	{
