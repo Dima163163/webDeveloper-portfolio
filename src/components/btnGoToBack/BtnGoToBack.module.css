@@ -1,0 +1,31 @@
+.btnGoToBack {
+	margin-top: 30px;
+	max-width: 200px;
+	display: inline-block;
+	height: 48px;
+	padding: 12px 28px;
+
+	border-radius: 5px;
+	background-color: var(--accent);
+	color: var(--white);
+	letter-spacing: 0.15px;
+	font-size: 16px;
+	font-weight: 500;
+
+	transition: opacity 0.2s ease-in;
+}
+
+.btnGoToBack:hover {
+	opacity: 0.8;
+}
+
+.btnGoToBack:active {
+	position: relative;
+	top: 1px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1200px;
+}
