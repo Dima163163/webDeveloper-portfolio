@@ -6,7 +6,6 @@ import { certificates } from '../helpers/certificatesList';
 const Certificates = () => {
 	return (
 		<>
-			<BtnGoToBack />
 			<SectionCards title="Certificates">
 				{certificates.map((certificate) => (
 					<CardItem

@@ -4,7 +4,6 @@ import ContactsSection from '../components/contacts/ContactsSection';
 const Contacts = () => {
 	return (
 		<>
-			<BtnGoToBack />
 			<ContactsSection />
 		</>
 	);
