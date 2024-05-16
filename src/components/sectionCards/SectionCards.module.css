@@ -40,6 +40,18 @@
 	row-gap: 30px;
 }
 
+@media (max-width: 1024px) {
+	.cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (max-width: 768px) {
+	.cards {
+		justify-items: center;
+		grid-template-columns: 1fr;
+	}
+}
+
 @media (max-width: 620px) {
 	/* General */
 
