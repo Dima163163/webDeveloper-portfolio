@@ -13,12 +13,21 @@ const SinglePage = ({ objects }) => {
 				<div className={styles['container']}>
 					<div className={styles['page-details']}>
 						<h1 className={styles['title-1']}>{object.title}</h1>
-
-						<img
-							src={object.imgBig || object.img}
-							alt=""
-							className={styles['page-details__cover']}
-						/>
+						<picture>
+							<source
+								srcSet={object.imgBigAvif || object.imgAvif}
+								type="image/avif"
+							/>
+							<source
+								srcSet={object.imgBigWebp || object.imgWebp}
+								type="image/webp"
+							/>
+							<img
+								src={object.imgBig || object.img}
+								alt=""
+								className={styles['page-details__cover']}
+							/>
+						</picture>
 						{object.skills && (
 							<div className={styles['page-details__desc']}>
 								<p>{object.skills}</p>

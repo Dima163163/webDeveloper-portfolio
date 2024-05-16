@@ -10,6 +10,8 @@ const Projects = () => {
 					<CardItem
 						key={project.id}
 						img={project.img}
+						imgAvif={project.imgAvif}
+						imgWebp={project.imgWebp}
 						title={project.title}
 						link={`/project/${project.id}`}
 					/>

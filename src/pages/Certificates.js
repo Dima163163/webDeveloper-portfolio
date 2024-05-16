@@ -1,4 +1,3 @@
-import BtnGoToBack from '../components/btnGoToBack/BtnGoToBack';
 import CardItem from '../components/cardItem/CardItem';
 import SectionCards from '../components/sectionCards/SectionCards';
 import { certificates } from '../helpers/certificatesList';

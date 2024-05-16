@@ -1,4 +1,5 @@
 import styles from './Header.module.css';
+import jobResume from '../../img/job-resume.jpg';
 
 const Header = () => {
 	return (
@@ -8,13 +9,13 @@ const Header = () => {
 					<strong>
 						Hi, my name is <em>Dmirtiy</em>
 					</strong>
-					<br />a frontend developer
+					<br />I am frontend developer
 				</h1>
 				<div className={styles['header__text']}>
 					<p>with passion for learning and creating.</p>
 				</div>
-				<a href="#!" className={styles['btn']}>
-					Download CV
+				<a href={jobResume} download="jobResume.jpg" className={styles['btn']}>
+					Download resume
 				</a>
 			</div>
 		</header>

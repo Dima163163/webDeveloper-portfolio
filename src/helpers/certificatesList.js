@@ -1,11 +1,11 @@
-import certifyHtml from '../img/certificatesLesson/certificate-learnjs-html.jpeg';
-import certifyGloWeb from '../img/certificatesLesson/diplom-glo-web.png';
-import certifyGloJs from '../img/certificatesLesson/diplom-glo-js.png';
-import certifyMethed from '../img/certificatesLesson/diplom-methed.png';
-import certifyReactNep from '../img/certificatesLesson/reactNepCert.jpeg';
-import certifyReduxNep from '../img/certificatesLesson/reduxNepCert.jpeg';
-import certifyReactRedux from '../img/certificatesLesson/reactReduxSta.jpeg';
-import certifyReactReduxLar from '../img/certificatesLesson/reactReduxLar.jpeg';
+import certifyHtml from '../img/certificatesLesson/certificate-learnjs-html.jpg';
+import certifyGloWeb from '../img/certificatesLesson/diplom-glo-web.jpg';
+import certifyGloJs from '../img/certificatesLesson/diplom-glo-js.jpg';
+import certifyMethed from '../img/certificatesLesson/diplom-methed.jpg';
+import certifyReactNep from '../img/certificatesLesson/reactNepCert.jpg';
+import certifyReduxNep from '../img/certificatesLesson/reduxNepCert.jpg';
+import certifyReactRedux from '../img/certificatesLesson/reactReduxSta.jpg';
+import certifyReactReduxLar from '../img/certificatesLesson/reactReduxLar.jpg';
 
 export const certificates = [
 	{
