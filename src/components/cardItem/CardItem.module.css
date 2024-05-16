@@ -1,4 +1,9 @@
 .card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+	min-height: 270px;
 	max-width: 370px;
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);

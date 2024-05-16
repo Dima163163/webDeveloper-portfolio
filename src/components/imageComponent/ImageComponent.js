@@ -1,23 +1,9 @@
-const ImageComponent = ({
-	img,
-	imgAvif,
-	imgWebp,
-	title,
-	className,
-	width = '370',
-	height = '270'
-}) => {
+const ImageComponent = ({ img, imgAvif, imgWebp, title, className }) => {
 	return (
 		<picture>
 			<source srcSet={imgAvif} type="image/avif" />
 			<source srcSet={imgWebp} type="image/webp" />
-			<img
-				src={img}
-				alt={title}
-				className={className}
-				width={width}
-				height={height}
-			/>
+			<img src={img} alt={title} className={className} />
 		</picture>
 	);
 };
