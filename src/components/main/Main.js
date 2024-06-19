@@ -1,3 +1,5 @@
+import BtnLink from '../btnLink/BtnLink';
+import codeWarsIcon from '../../img/icons/codewars-svg.svg'
 import styles from './Main.module.css';
 
 const Main = () => {
@@ -13,6 +15,9 @@ const Main = () => {
 						</p>
 					</li>
 				</ul>
+				<div className={styles['btn-container']}>
+					<BtnLink link="https://www.codewars.com/users/Dima163163" icon={codeWarsIcon} text="Codewars account"/>
+				</div>
 			</div>
 		</main>
 	);
