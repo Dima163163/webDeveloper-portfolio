@@ -10,7 +10,7 @@ const Main = () => {
 					<li className={styles['content-list__item']}>
 						<h2 className={styles['title-2']}>Frontend</h2>
 						<p>
-							HTML, CSS, SCSS, JavaScript, React, Redux Toolkit, GitHub, Vite,
+							HTML, CSS, SCSS, JavaScript, React, Redux Toolkit, RTK Query, GitHub, Vite,
 							Webpack
 						</p>
 					</li>
