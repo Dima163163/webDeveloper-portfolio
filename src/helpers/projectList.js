@@ -14,14 +14,6 @@ import pizzaBig from './../img/projects/gogoPizzaBig.jpg';
 import pizzaBigAvif from './../img/projects/gogoPizzaBig.avif';
 import pizzaBigWebp from './../img/projects/gogoPizzaBig.webp';
 
-import marbles from './../img/projects/marbles.jpg';
-import marblesAvif from './../img/projects/marbles.avif';
-import marblesWebp from './../img/projects/marbles.webp';
-
-import marblesBig from './../img/projects/marblesBig.png';
-import marblesBigAvif from './../img/projects/marblesBig.avif';
-import marblesBigWebp from './../img/projects/marblesBig.webp';
-
 import galery from './../img/projects/galery.jpg';
 import galeryAvif from './../img/projects/galery.avif';
 import galeryWebp from './../img/projects/galery.webp';
@@ -139,20 +131,6 @@ export const projects = [
 	},
 	{
 		id: 3,
-		title: 'Marbles',
-		img: marbles,
-		imgAvif: marblesAvif,
-		imgWebp: marblesWebp,
-		imgBig: marblesBig,
-		imgBigAvif: marblesBigAvif,
-		imgBigWebp: marblesBigWebp,
-		skills: 'JS',
-		gitHubLink: 'https://github.com/Dima163163/Marbles',
-		gitHubPages: 'https://dima163163.github.io/Marbles/',
-		vercel: ''
-	},
-	{
-		id: 4,
 		title: 'Pizza GO-GO',
 		img: pizza,
 		imgAvif: pizzaAvif,
@@ -165,7 +143,7 @@ export const projects = [
 		vercel: 'https://gogo-pizza.vercel.app/'
 	},
 	{
-		id: 5,
+		id: 4,
 		title: 'CRM',
 		img: crm,
 		imgAvif: crmAvif,
@@ -178,7 +156,7 @@ export const projects = [
 		gitHubPages: 'https://dima163163.github.io/crm/cms.html'
 	},
 	{
-		id: 6,
+		id: 5,
 		title: 'Movies',
 		img: reactMovies,
 		imgAvif: reactMoviesAvif,
@@ -191,7 +169,7 @@ export const projects = [
 		gitHubPages: 'https://dima163163.github.io/react-movies/'
 	},
 	{
-		id: 7,
+		id: 6,
 		title: 'Shop',
 		img: reactShop,
 		imgAvif: reactShopAvif,
@@ -204,7 +182,7 @@ export const projects = [
 		gitHubPages: 'https://dima163163.github.io/react-shop/'
 	},
 	{
-		id: 8,
+		id: 7,
 		title: 'Food project',
 		img: foodProgect,
 		imgAvif: foodProgectAvif,
@@ -217,7 +195,7 @@ export const projects = [
 		gitHubPages: 'https://dima163163.github.io/food-project/'
 	},
 	{
-		id: 9,
+		id: 8,
 		title: 'Countries App',
 		img: countries,
 		imgAvif: countriesAvif,
@@ -230,7 +208,7 @@ export const projects = [
 		vercel: 'https://countries-spa-swart.vercel.app/'
 	},
 	{
-		id: 10,
+		id: 9,
 		title: 'Gallery App',
 		img: galery,
 		imgAvif: galeryAvif,
@@ -243,7 +221,7 @@ export const projects = [
 		vercel: 'https://gallery-course.vercel.app/'
 	},
 	{
-		id: 11,
+		id: 10,
 		title: 'Pizza App',
 		img: pizzaApp,
 		imgAvif: pizzaAppAvif,
