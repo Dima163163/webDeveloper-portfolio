@@ -20,4 +20,5 @@
 .card__img {
 	border-radius: 10px;
 	object-fit: cover;
+  height: 100%;
 }
