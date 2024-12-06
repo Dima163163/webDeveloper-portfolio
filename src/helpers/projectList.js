@@ -90,6 +90,11 @@ import bmwInfoBig from './../img/projects/bmwInfo.jpg';
 import bmwInfoBigAvif from './../img/projects/bmwInfo.avif';
 import bmwInfoBigWebp from './../img/projects/bmwInfo.webp';
 
+
+import roboSchool from './../img/projects/roboSchool.jpg';
+import roboSchoolAvif from './../img/projects/roboSchoolAvif.avif';
+import roboSchoolWebp from './../img/projects/roboSchoolWebp.webp';
+
 export const projects = [
 	{
 		id: 0,
@@ -106,6 +111,20 @@ export const projects = [
 	},
 	{
 		id: 1,
+		title: 'Robo School',
+		img: roboSchool,
+		imgAvif: roboSchoolAvif,
+		imgWebp: roboSchoolWebp,
+		imgBig: roboSchool,
+		imgBigAvif:  roboSchoolAvif,
+		imgBigWebp: roboSchoolWebp,
+		skills: 'HTML, CSS, JS',
+		gitHubLink: 'https://github.com/Dima163163/robo-school',
+    gitHubPages: 'https://dima163163.github.io/robo-school/',
+		vercel: ''
+	},
+	{
+		id: 2,
 		title: 'Go-go',
 		img: go,
 		imgAvif: goAvif,
@@ -119,7 +138,7 @@ export const projects = [
 		vercel: ''
 	},
 	{
-		id: 2,
+		id: 3,
 		title: 'Pro Kino',
 		img: proKino,
 		imgAvif: proKinoAvif,
@@ -133,7 +152,7 @@ export const projects = [
 		vercel: ''
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'AutoService',
 		img: carService,
 		imgAvif: carServiceAvif,
@@ -147,7 +166,7 @@ export const projects = [
 		vercel: ''
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Pizza GO-GO',
 		img: pizza,
 		imgAvif: pizzaAvif,
@@ -160,7 +179,7 @@ export const projects = [
 		vercel: 'https://gogo-pizza.vercel.app/'
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'CRM',
 		img: crm,
 		imgAvif: crmAvif,
@@ -173,7 +192,7 @@ export const projects = [
 		gitHubPages: 'https://dima163163.github.io/crm/cms.html'
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Movies',
 		img: reactMovies,
 		imgAvif: reactMoviesAvif,
@@ -186,7 +205,7 @@ export const projects = [
 		gitHubPages: 'https://dima163163.github.io/react-movies/'
 	},
 	{
-		id: 7,
+		id: 8,
 		title: 'Shop',
 		img: reactShop,
 		imgAvif: reactShopAvif,
@@ -199,7 +218,7 @@ export const projects = [
 		gitHubPages: 'https://dima163163.github.io/react-shop/'
 	},
 	{
-		id: 8,
+		id: 9,
 		title: 'Food project',
 		img: foodProgect,
 		imgAvif: foodProgectAvif,
@@ -212,7 +231,7 @@ export const projects = [
 		gitHubPages: 'https://dima163163.github.io/food-project/'
 	},
 	{
-		id: 9,
+		id: 10,
 		title: 'Countries App',
 		img: countries,
 		imgAvif: countriesAvif,
@@ -225,7 +244,7 @@ export const projects = [
 		vercel: 'https://countries-spa-swart.vercel.app/'
 	},
 	{
-		id: 10,
+		id: 11,
 		title: 'Gallery App',
 		img: galery,
 		imgAvif: galeryAvif,
@@ -238,7 +257,7 @@ export const projects = [
 		vercel: 'https://gallery-course.vercel.app/'
 	},
 	{
-		id: 11,
+		id: 12,
 		title: 'Pizza App',
 		img: pizzaApp,
 		imgAvif: pizzaAppAvif,
