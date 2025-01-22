@@ -45,6 +45,14 @@ const Navbar = () => {
 						</li>
 						<li className={styles['nav-list__item']}>
 							<NavLink
+								to="./resume"
+								className={({isActive}) => (isActive ? activeLink : normalLink)}
+							>
+								Resume
+							</NavLink>
+						</li>
+						<li className={styles['nav-list__item']}>
+							<NavLink
 								to="./contacts"
 								className={({isActive}) => (isActive ? activeLink : normalLink)}
 							>

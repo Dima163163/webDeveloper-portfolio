@@ -1,0 +1,10 @@
+.list-items {
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
+.list-item {
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
