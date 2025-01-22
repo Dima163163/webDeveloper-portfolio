@@ -110,6 +110,10 @@ import rumTibet from './../img/projects/rumTibet.jpg';
 import rumTibetAvif from './../img/projects/rumTibetAvif.avif';
 import rumTibetWebp from './../img/projects/rumTibetWebp.webp';
 
+import bankok from './../img/projects/bankok.jpg';
+import bankokAvif from './../img/projects/bankok.avif';
+import bankokWebp from './../img/projects/bankok.webp';
+
 export const projects = [
   {
     id: 0,
@@ -126,6 +130,20 @@ export const projects = [
   },
   {
     id: 1,
+    title: 'bankok',
+    img: bankok,
+    imgAvif: bankokAvif,
+    imgWebp: bankokWebp,
+    imgBig: bankok,
+    imgBigAvif: bankokAvif,
+    imgBigWebp: bankokWebp,
+    skills: 'HTML, CSS, JS',
+    gitHubLink: 'https://github.com/Dima163163/bankok',
+    gitHubPages: 'https://dima163163.github.io/bankok',
+    vercel: ''
+  },
+  {
+    id: 2,
     title: 'Robo School',
     img: roboSchool,
     imgAvif: roboSchoolAvif,
@@ -139,7 +157,7 @@ export const projects = [
     vercel: ''
   },
   {
-    id: 2,
+    id: 3,
     title: 'Rum Tibet',
     img: rumTibet,
     imgAvif: rumTibetAvif,
@@ -153,7 +171,7 @@ export const projects = [
     vercel: ''
   },
   {
-    id: 3,
+    id: 4,
     title: 'Simple',
     img: simple,
     imgAvif: simpleAvif,
@@ -167,7 +185,7 @@ export const projects = [
     vercel: ''
   },
   {
-    id: 4,
+    id: 5,
     title: 'Ink House',
     img: inkHouse,
     imgAvif: inkHouseAvif,
@@ -181,7 +199,7 @@ export const projects = [
     vercel: ''
   },
   {
-    id: 5,
+    id: 6,
     title: 'Правозащитник',
     img: lawyer,
     imgAvif: lawyerAvif,
@@ -195,7 +213,7 @@ export const projects = [
     vercel: ''
   },
   {
-    id: 6,
+    id: 7,
     title: 'Go-go',
     img: go,
     imgAvif: goAvif,
@@ -209,7 +227,7 @@ export const projects = [
     vercel: ''
   },
   {
-    id: 7,
+    id: 8,
     title: 'Pro Kino',
     img: proKino,
     imgAvif: proKinoAvif,
@@ -223,7 +241,7 @@ export const projects = [
     vercel: ''
   },
   {
-    id: 8,
+    id: 9,
     title: 'AutoService',
     img: carService,
     imgAvif: carServiceAvif,
@@ -237,7 +255,7 @@ export const projects = [
     vercel: ''
   },
   {
-    id: 9,
+    id: 10,
     title: 'Pizza GO-GO',
     img: pizza,
     imgAvif: pizzaAvif,
@@ -250,7 +268,7 @@ export const projects = [
     vercel: 'https://gogo-pizza.vercel.app/'
   },
   {
-    id: 10,
+    id: 11,
     title: 'CRM',
     img: crm,
     imgAvif: crmAvif,
@@ -263,7 +281,7 @@ export const projects = [
     gitHubPages: 'https://dima163163.github.io/crm/cms.html'
   },
   {
-    id: 11,
+    id: 12,
     title: 'Movies',
     img: reactMovies,
     imgAvif: reactMoviesAvif,
@@ -276,7 +294,7 @@ export const projects = [
     gitHubPages: 'https://dima163163.github.io/react-movies/'
   },
   {
-    id: 12,
+    id: 13,
     title: 'Shop',
     img: reactShop,
     imgAvif: reactShopAvif,
@@ -289,7 +307,7 @@ export const projects = [
     gitHubPages: 'https://dima163163.github.io/react-shop/'
   },
   {
-    id: 13,
+    id: 14,
     title: 'Food project',
     img: foodProgect,
     imgAvif: foodProgectAvif,
@@ -302,7 +320,7 @@ export const projects = [
     gitHubPages: 'https://dima163163.github.io/food-project/'
   },
   {
-    id: 14,
+    id: 15,
     title: 'Countries App',
     img: countries,
     imgAvif: countriesAvif,
@@ -315,7 +333,7 @@ export const projects = [
     vercel: 'https://countries-spa-swart.vercel.app/'
   },
   {
-    id: 15,
+    id: 16,
     title: 'Gallery App',
     img: galery,
     imgAvif: galeryAvif,
@@ -328,7 +346,7 @@ export const projects = [
     vercel: 'https://gallery-course.vercel.app/'
   },
   {
-    id: 16,
+    id: 17,
     title: 'Pizza App',
     img: pizzaApp,
     imgAvif: pizzaAppAvif,
