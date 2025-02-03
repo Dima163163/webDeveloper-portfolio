@@ -130,7 +130,7 @@ export const projects = [
   },
   {
     id: 1,
-    title: 'bankok',
+    title: 'Bangkok',
     img: bankok,
     imgAvif: bankokAvif,
     imgWebp: bankokWebp,
